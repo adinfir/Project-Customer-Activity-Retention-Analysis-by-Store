@@ -17,13 +17,15 @@ The analysis uses customer transaction records from the `tabinvoice` table.
 
 ### Key Columns
 
-| Column        | Description                    |
-| ------------- | ------------------------------ |
-| `store`       | Store identifier/name          |
-| `customer_id` | Unique customer identifier     |
-| `sales_date`  | Transaction date               |
-| `invoice`     | Transaction/invoice identifier |
-| `net_total`   | Transaction revenue            |
+| Column          | Description                                    |
+| ----------------| -----------------------------------------------|    
+| `store`         | Store identifier/name                          |
+| `customer_id`   | Unique customer identifier                     | 
+| `customer_name` | Customer name associated with the transaction  |
+| `sales_date`    | Transaction date                               |
+| `invoice`       | Transaction/invoice identifier                 |
+| `net_total`     | Transaction revenue                            |
+| `total_qty`     | Transaction quantity                           |
 
 The analysis primarily uses:
 
