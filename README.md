@@ -41,6 +41,7 @@ to determine customer activity and retention behavior.
 
 * **Google BigQuery**
 * **GoogleSQL**
+* **Tableau**
 * CTEs (`WITH`)
 * Window Functions (`DENSE_RANK`)
 * Conditional Aggregation
@@ -140,7 +141,7 @@ Customer-Activity-Retention-Analysis-by-Store/
     └── tabinvoice.csv
 │
 └── dashboard/
-    └── dashboard.png
+    └── Dashboard Customer Activity & retention analysis.png
 ```
 
 > The raw transaction dataset is not included in this repository to maintain data privacy and avoid unnecessarily exposing source data.
