@@ -30,7 +30,7 @@ The analysis uses customer transaction records from the `tabinvoice` table.
 The analysis primarily uses:
 
 * Store
-* Customer
+* Customer_id
 * Transaction date
 
 to determine customer activity and retention behavior.
